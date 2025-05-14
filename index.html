@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aoyagui - Anime & Tech</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background"></div>
+
+    <header class="custom-header">
+      <div class="header-content">
+        <div class="logo">AOYAGUI</div>
+        <nav class="menu tabs">
+          <button class="tab-link active" data-tab="tab-sobre">SOBRE</button>
+          <button class="tab-link" data-tab="tab-videos">VÍDEOS</button>
+          <button class="tab-link" data-tab="tab-contato">CONTATO</button>
+        </nav>
+      </div>
+    </header>
+
+    <section id="tab-sobre" class="tab-content active">
+      <div class="sobre-wrapper">
+        <div class="toggle-seta" id="toggle-sobre-btn" title="Mostrar/Ocultar">
+          ▼
+        </div>
+
+        <div class="sobre-box" id="sobre-box">
+          <h2>Sobre</h2>
+          <p>
+            Olá! Meu nome é <strong>Guilherme Aoyagui Ide</strong> e sou
+            estudante de <strong>Ciência da Computação</strong>.
+          </p>
+          <p>
+            Criei esta página com muito carinho para ajudar
+            <strong>crianças e jovens</strong> que se interessam por cultura e
+            conhecimento asiático.
+          </p>
+          <p>
+            Acredito que aprender pode ser divertido e inspirador, especialmente
+            quando conectamos o conhecimento com nossas origens e interesses
+            culturais. Aqui, você encontrará conteúdos interativos, curiosidades
+            e quizzes que aproximam a tecnologia da rica diversidade asiática.
+          </p>
+          <p>Seja bem-vindo(a) e aproveite essa jornada de descobertas!</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tab-contato" class="tab-content">
+      <div class="sobre-box">
+        <h2>Contato</h2>
+        <p>
+          Se você tiver dúvidas, sugestões ou quiser colaborar com o projeto,
+          entre em contato!
+        </p>
+        <p>
+          📩Email:
+          <a href="mailto:guilhermeaoyaguiide@gmail.com"
+            >guilhermeaoyaguiide@gmail.com</a
+          >
+        </p>
+        <p>
+          <img
+            src="https://img.icons8.com/ios-filled/24/ffffff/instagram-new--v1.png"
+            alt="Instagram"
+            class="social-icon"
+          />
+          Instagram:
+          <a href="https://instagram.com/aoyagui.gui" target="_blank">
+            @aoyagui.gui
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <section id="tab-videos" class="tab-content">
+      <div class="sobre-box">
+        <h2>🎥 Meus Vídeos</h2>
+        <p>
+          Acompanhe meus vídeos sobre cultura asiática, reflexões e
+          curiosidades:
+        </p>
+
+        <div class="video-feed">
+          <!-- Exemplo de vídeo 1 -->
+          <div class="video-item">
+            <iframe
+              src="https://www.youtube.com/embed/ctmAoh1tDY4?si=88cCyZMnpINnVhqQ"
+              frameborder="0"
+              allowfullscreen
+              title="Vídeo 1 do Guilherme"
+            ></iframe>
+          </div>
+
+          <!-- Exemplo de vídeo 2 -->
+          <div class="video-item">
+            <iframe
+              src="https://www.youtube.com/embed/8PivTSIgUQw?si=KL-B0DuS3-5rrsbY"
+              frameborder="0"
+              allowfullscreen
+              title="Vídeo 2 do Guilherme"
+            ></iframe>
+          </div>
+
+          <!-- Adicione mais vídeos repetindo o bloco acima -->
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="hero">
+        <h2>Explorando a Ásia, <br />Anime e Tecnologia</h2>
+        <div class="quiz-box" onclick="startQuiz()">
+          <p class="quiz-title">Curiosidade/Quiz</p>
+          <p class="quiz-sub">Teste seu conhecimento aqui!</p>
+        </div>
+
+        <!-- Tela de seleção de dificuldade -->
+        <div id="difficulty-selection" style="display: none">
+          <p class="quiz-title">Escolha o nível de dificuldade:</p>
+          <button onclick="selectDifficulty('iniciante')">Iniciante</button>
+          <button onclick="selectDifficulty('intermediario')">
+            Intermediário
+          </button>
+          <button onclick="selectDifficulty('avancado')">Avançado</button>
+        </div>
+
+        <!-- Container do quiz -->
+        <div id="quiz-container" style="display: none">
+          <div id="question-box">
+            <p id="question-text"></p>
+            <div id="answers-container"></div>
+            <button id="next-btn" disabled onclick="nextQuestion()">
+              Próxima
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="content">
+        <h3>Sobre</h3>
+        <div class="curiosity-box">
+          <div class="icon">🍜</div>
+          <div class="info">
+            <h4>Curiosidades</h4>
+            <p>
+              Descubra fatos e curiosidades interessantes sobre a cultura
+              asiática e muito mais!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+    <script>
+      const tabs = document.querySelectorAll(".tab-link");
+      const contents = document.querySelectorAll(".tab-content");
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          // Remove "active" de todas as abas
+          tabs.forEach((t) => t.classList.remove("active"));
+          contents.forEach((c) => c.classList.remove("active"));
+
+          // Ativa a aba e o conteúdo clicado
+          tab.classList.add("active");
+          document.getElementById(tab.dataset.tab).classList.add("active");
+        });
+      });
+    </script>
+  </body>
+</html>

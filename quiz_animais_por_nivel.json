@@ -1,0 +1,464 @@
+[
+  {
+    "nivel": "iniciante",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "aguia-marinha-de-steller.png",
+    "opcoes": [
+      {
+        "texto": "Águia-Marinha-de-Steller",
+        "imagem": "aguia-marinha-de-steller.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Águia-Marinha-de-Steller",
+    "explicacao": "Essa águia vive em regiões frias do Japão e tem asas enormes para voar longas distâncias."
+  },
+  {
+    "nivel": "iniciante",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "cervus-nippon.png",
+    "opcoes": [
+      {
+        "texto": "Cervus nippon",
+        "imagem": "cervus-nippon.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Cervus nippon",
+    "explicacao": "Este cervo japonês tem manchas no pelo e é muito respeitado em templos no Japão."
+  },
+  {
+    "nivel": "iniciante",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "coruja-pescadora-blakiston.png",
+    "opcoes": [
+      {
+        "texto": "Coruja-Pescadora-de-Blakiston",
+        "imagem": "coruja-pescadora-blakiston.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Coruja-Pescadora-de-Blakiston",
+    "explicacao": "É uma das maiores corujas do mundo e adora pescar peixes em rios gelados."
+  },
+  {
+    "nivel": "iniciante",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "doninha-japonesa.png",
+    "opcoes": [
+      {
+        "texto": "Doninha Japonesa",
+        "imagem": "doninha-japonesa.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Doninha Japonesa",
+    "explicacao": "Pequena e veloz, essa doninha é ativa nas florestas do Japão."
+  },
+  {
+    "nivel": "iniciante",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "esquilo-voador-gigante.png",
+    "opcoes": [
+      {
+        "texto": "Esquilo Voador Gigante Japonês",
+        "imagem": "esquilo-voador-gigante.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Esquilo Voador Gigante Japonês",
+    "explicacao": "Ele plana entre árvores e parece um bichinho de pelúcia com asas!"
+  },
+  {
+    "nivel": "iniciante",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "grou-japones.png",
+    "opcoes": [
+      {
+        "texto": "Grou-Japonês",
+        "imagem": "grou-japones.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Grou-Japonês",
+    "explicacao": "Símbolo de sorte e longevidade no Japão. Vive em áreas úmidas."
+  },
+  {
+    "nivel": "iniciante",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "javali-japones.png",
+    "opcoes": [
+      {
+        "texto": "Javali Japonês",
+        "imagem": "javali-japones.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Javali Japonês",
+    "explicacao": "O javali corre rápido pelas florestas e adora cavar a terra com o focinho."
+  },
+  {
+    "nivel": "intermediario",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "lepus-brachyurus.png",
+    "opcoes": [
+      {
+        "texto": "Lepus brachyurus",
+        "imagem": "lepus-brachyurus.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Lepus brachyurus",
+    "explicacao": "É uma lebre pequena do Japão com orelhas curtinhas e pelagem marrom."
+  },
+  {
+    "nivel": "intermediario",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "macaco-japones.png",
+    "opcoes": [
+      {
+        "texto": "Macaco Japonês",
+        "imagem": "macaco-japones.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Macaco Japonês",
+    "explicacao": "Famoso por tomar banho em águas termais durante o inverno."
+  },
+  {
+    "nivel": "intermediario",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "martes-melampus.png",
+    "opcoes": [
+      {
+        "texto": "Martes melampus",
+        "imagem": "martes-melampus.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Martes melampus",
+    "explicacao": "Uma espécie de fuinha que vive nas montanhas japonesas."
+  },
+  {
+    "nivel": "intermediario",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "musaranho-japones.png",
+    "opcoes": [
+      {
+        "texto": "Musaranho Japonês",
+        "imagem": "musaranho-japones.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Musaranho Japonês",
+    "explicacao": "Muito pequeno e rápido, ele vive em tocas e come insetos."
+  },
+  {
+    "nivel": "intermediario",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "pardal-japones.png",
+    "opcoes": [
+      {
+        "texto": "Pardal-Montês-Japonês",
+        "imagem": "pardal-japones.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Pardal-Montês-Japonês",
+    "explicacao": "Esse passarinho vive em cidades e campos, cantando alegremente."
+  },
+  {
+    "nivel": "intermediario",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "phalacrocorax-japones.png",
+    "opcoes": [
+      {
+        "texto": "Phalacrocorax capillatus",
+        "imagem": "phalacrocorax-japones.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Phalacrocorax capillatus",
+    "explicacao": "Um tipo de ave mergulhadora que pesca nos rios japoneses."
+  },
+  {
+    "nivel": "intermediario",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "fasao-versicolor.png",
+    "opcoes": [
+      {
+        "texto": "Phasianus versicolor",
+        "imagem": "fasao-versicolor.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Phasianus versicolor",
+    "explicacao": "Faisão colorido símbolo nacional do Japão, com penas vibrantes."
+  },
+  {
+    "nivel": "avancado",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "pica-pau-japones.png",
+    "opcoes": [
+      {
+        "texto": "Pica-Pau-Japonês",
+        "imagem": "pica-pau-japones.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Pica-Pau-Japonês",
+    "explicacao": "Bate com o bico nas árvores para encontrar insetos e fazer buracos."
+  },
+  {
+    "nivel": "avancado",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "gato-iriomote.png",
+    "opcoes": [
+      {
+        "texto": "Prionailurus iriomotensis",
+        "imagem": "gato-iriomote.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Prionailurus iriomotensis",
+    "explicacao": "Gato selvagem raro da Ilha Iriomote, ameaçado de extinção."
+  },
+  {
+    "nivel": "avancado",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "raposa-vermelha.png",
+    "opcoes": [
+      {
+        "texto": "Raposa Vermelha",
+        "imagem": "raposa-vermelha.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Raposa Vermelha",
+    "explicacao": "Inteligente e misteriosa, vive em lendas japonesas."
+  },
+  {
+    "nivel": "avancado",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "serow-japones.png",
+    "opcoes": [
+      {
+        "texto": "Serow japonês",
+        "imagem": "serow-japones.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Serow japonês",
+    "explicacao": "Parece uma mistura de bode e antílope, vive em montanhas rochosas."
+  },
+  {
+    "nivel": "avancado",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "tanuki.png",
+    "opcoes": [
+      {
+        "texto": "Tanuki",
+        "imagem": "tanuki.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Tanuki",
+    "explicacao": "Animal real e mítico, famoso por aparecer em histórias japonesas."
+  },
+  {
+    "nivel": "avancado",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "urso-negro-japones.png",
+    "opcoes": [
+      {
+        "texto": "Urso Negro Japonês",
+        "imagem": "urso-negro-japones.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Urso Negro Japonês",
+    "explicacao": "Urso que vive nas florestas do Japão, adora comer frutas e mel."
+  },
+  {
+    "nivel": "avancado",
+    "categoria": "animais",
+    "pergunta": "Que animal é este?",
+    "imagem": "urso-marrom-japones.png",
+    "opcoes": [
+      {
+        "texto": "Ursus arctos lasiotus",
+        "imagem": "urso-marrom-japones.png"
+      },
+      {
+        "texto": "Animal Genérico 1",
+        "imagem": "gen1.png"
+      },
+      {
+        "texto": "Animal Genérico 2",
+        "imagem": "gen2.png"
+      }
+    ],
+    "resposta": "Ursus arctos lasiotus",
+    "explicacao": "Maior urso do Japão, vive em Hokkaido e é muito forte."
+  }
+]
