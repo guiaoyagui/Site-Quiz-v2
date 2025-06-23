@@ -396,16 +396,7 @@ body {
 }
 
 /* Animação suave */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+
 
 #next-btn {
   transition: transform 0.3s ease, background-color 0.3s ease;
